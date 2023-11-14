@@ -4,8 +4,9 @@ margin: 0;
 }
 #menuContenido{
     width: 100%;
-    height: 100px;
-    border: 1px solid black; 
+   
+    background-color: #67999A;
+    display: flex; 
 
 }
 #cuerpoContenido{
@@ -18,4 +19,27 @@ footer{
     width: 100%;
     height: 200px;
     border: 1px solid black; 
+}
+#contenidoImagenNombre{
+    flex: 30%;
+
+}
+#menuContenido{
+    flex: 70%;
+
+}
+#imagenNombreRedondo{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 75%;
+}
+#nombreRectangulo{
+    background-color: #013334;
+    width: 20%;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
