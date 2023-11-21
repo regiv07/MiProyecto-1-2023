@@ -9,11 +9,20 @@ margin: 0;
     display: flex; 
 
 }
-#cuerpoContenido{
+#CuerpoContenido{
     width: 100%;
-    height: 500px;
-    border: 1px solid black; 
-    
+    background-color: #D3EE9F;
+    display: flex; 
+    padding-top: 50px;
+
+}
+#CuerpoImagen{
+    flex: 40%;
+        
+}
+#CuerpoDetalle{
+    flex: 60%;
+
 }
 footer{
     width: 100%;
@@ -26,12 +35,17 @@ footer{
 }
 #menuContenido{
     flex: 70%;
+    margin: 15px 20px 0 0;
+    text-align: right;
+    
 
 }
 ul li{
     color:#550101;
     text-decoration: none;
     display: inline;
+    border-right: solid 2px #550101;
+
 }
 ul li a{
     color: #550101;
@@ -56,7 +70,6 @@ ul li a:hover{
     background-repeat: no-repeat;
     background-size: contain;
 
-
 }
 #nombreRectangulo{
     background-color: #013334;
@@ -67,6 +80,14 @@ ul li a:hover{
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
-    top: 14%;
+    top: 15%;
+    text-align: left;
+
+}
+#LogoInicio{
+    background-image: url("../img/Recurso\ 7.png");
+    padding: 2px 0 0 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
 
 }
