@@ -2,6 +2,9 @@
 padding: 0;
 margin: 0;
 }
+
+#b-none { border: none;}
+
 #menuContenido{
     width: 100%;
    
@@ -34,7 +37,7 @@ footer{
 
 }
 #menuContenido{
-    flex: 70%;
+    flex: 0.1%;
     margin: 15px 20px 0 0;
     text-align: right;
     
@@ -90,4 +93,25 @@ ul li a:hover{
     background-size: 18px;
     background-repeat: no-repeat;
 
+}
+#BordeImagen{
+    background-color: #D46B68;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 62%;
+    margin: auto;
+
+}
+img{
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#DatosDetalle{
+    text-align: justify;
+    margin: 40px 200px 0;
 }
