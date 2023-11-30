@@ -29,6 +29,7 @@ margin: 0;
 }
 footer{
     width: 100%;
+    background-color: #7B9E35;
 
 }
 #contenidoImagenNombre{
@@ -147,4 +148,45 @@ h1{
 .disenoBoton:hover{
     opacity: 55%;
     cursor: pointer;
+}
+#MenuFooter{
+    flex: 20%;
+
+}
+#ContenidoFooter{
+    flex: 40%;
+    text-align: justify;
+
+}
+#SocialFooter{
+    flex: 40%;
+
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 15px;
+}
+.SocialesFooter li{
+    border: none;
+    
+}
+li img{
+    width: 5%;
+    padding: 10px;
+}
+li img:hover{
+    opacity: 60%;
+    cursor: pointer;
+    width: 6%;
+}   
+#MarcoFooter{
+    display: flex;
+    padding: 50px;
 }
