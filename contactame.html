@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,38 +29,33 @@
     </div>  
 <!--Cuerpo del Index-->
     <div id="CuerpoContenido">
-        <div id="CuerpoImagen">
-            <div id="BordeImagen">
-                <img src="/img/Recurso 1.png" 
-                    height="400"   
-                    width="480">
-            </div>
-        </div>
-        <div id="CuerpoDetalle">
-            <h1>Bienvenido</h1>
-            <div id="DatosDetalle">
-                <p> Agradecemos sinceramente haber seleccionado nuestra empresa como tu socio de confianza. 
-                    Nos comprometemos plenamente a comprender tus necesidades individuales y proporcionar soluciones personalizadas que te ayuden a alcanzar tus metas. 
-                    Tu satisfacción y éxito son nuestra máxima prioridad, y estamos ansiosos por trabajar juntos para lograr resultados excepcionales. 
-                        </p>
-            </div>
-            <div id="Botones">
-                <div id="botonFavorito">
-                    <div id="marcoFavorito" class="disenoBoton">
-                    Persona Favorito
-                </div>
-                </div>
-                <div id="botonUbicacion">
-                <div id="marcoUbicacion" class="disenoBoton">
-                    Mi Ubicación
-                </div>
-                </div>
-            </div>
+    
+        <div id="FormularioDatos">
+        <fieldset>
+            <legend>MisDatos</legend>
+            <form>
+                <label>Nombre</label>
+                <input type="text" placeholder="Nombre">
+                <label>Apellido</label>
+                <input type="text" placeholder="Apellido">
+                <label>Edad</label>
+                <input type="number" placeholder="Edad">
+            
+            <select>
+                <option value="cbba">Cochabamba</option>
+                <option value="lpz">La Paz</option>
+                <option value="scz">Santa Cruz</option>
+                <option value="tja">Tarija</option>
+                <option value="bni">Beni</option>
+            </select>
+           
+                <label>Descripción</label>
+                    <textarea></textarea>
+                    <input type="button" value="ENVIAR">
+            </form>
+        </fieldset>
 
-        </div>
-
-
-
+    </div>
     </div>
     <!--Footer Web-->
     <footer>
@@ -67,7 +63,7 @@
         <div id="MarcoFooter">
             <div id="MenuFooter">
             <nav>
-                <a href="index.html">INICIO</a>
+                <a href="logoInicio"><a href="#">INICIO</a>
                 <a href="#">MIS LIBROS</a>
                 <a href="#">MI MÚSICA</a>
                 <a href="galeria.html">MIS VIDEOS</a>
